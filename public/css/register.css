@@ -1,0 +1,106 @@
+#titulo-registrese {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.formulario-field {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: none;
+}
+
+.formulario-field * {
+    border: none;
+    
+}
+.formulario-field input {
+    height: 5vh;
+    margin-top: 28px;
+    border-radius: 5px;
+}
+
+
+.formulario-field button {
+    margin: auto;
+    background-color: #155192;
+    width: 15vw; 
+    height: 5vh;
+    color: #fff;
+    font-weight: 200;
+    border: initial;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.fecha {
+    margin-top: 50px;
+}
+
+.perfil-usuario {
+    margin-top: 50px;
+}
+
+.intereses {
+    margin-top: 50px;
+}
+
+#titulo-foto-usuario {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.fa-camera{
+    color: #666;
+    width: 100px;
+    font-size: 50px;
+}
+
+#foto-usuario{
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.boton-enviar{
+    transition: all 0.5s;
+}
+
+.boton-enviar:hover {
+    background-color: #0022AA;
+}
+
+.boton-borrar {
+    transition: all 0.5s;
+}
+
+.boton-borrar:hover {
+    background-color: #0022AA;
+}
+
+
+/*      Tablets       */
+
+@media (min-width: 361px) {
+    .formulario-field {
+        max-width: 70vw;
+        margin: auto;
+        border: none;
+    }
+}
+
+
+/*         Desktop         */
+
+@media (min-width: 769px) {
+    .formulario-field {
+        max-width: 60vw;
+        margin: auto;
+        border: none;
+    }  
+}
